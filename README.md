@@ -35,7 +35,7 @@ Langkah-Langkah Menggunakan Git
 2.Selanjutnya, buka windows explorer, klik kanan pada folder yang telah dibuat tadi, klik “Git Bash Here”, maka akan muncul command prompt.
 ![screenshot 128](https://user-images.githubusercontent.com/45659243/51669714-9d6c1480-1ff7-11e9-9b0f-79eae654cfd1.png)
 3.Untuk penggunaan pertama kali, kita harus mengkonfigurasikan user name dan email pada Git. ketik pada CMD
-
+![image](https://user-images.githubusercontent.com/45659243/51669817-d4dac100-1ff7-11e9-972c-3d18d8e80a23.png)
 4.Buatlah repository local kalian
 
 5.Lakukan inisialisasi, ketik pada CMD
