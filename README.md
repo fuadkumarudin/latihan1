@@ -1,4 +1,5 @@
 #latihan 1
+
 TUTORIAL CARA MENGGUNAKAN GIT
 Apa Itu Git ?
 
@@ -30,17 +31,29 @@ Langkah-Langkah Menggunakan Git
 
 
 2.Selanjutnya, buka windows explorer, klik kanan pada folder yang telah dibuat tadi, klik “Git Bash Here”, maka akan muncul command prompt.
+
 3.Untuk penggunaan pertama kali, kita harus mengkonfigurasikan user name dan email pada Git. ketik pada CMD
+
 4.Buatlah repository local kalian
+
 5.Lakukan inisialisasi, ketik pada CMD
+
 6.Tambahkan semua file yang ada dalam folder projek kita. ketikkan pada CMD
+
 7.Buat commit projeknya, commit disini digunakan untuk mengatur versi projek yang kita unggah. misalnya README.md. ketikkan pada CMD, kemudian kita ketik git status
+
 8.Kita buat repositorynya di github dengan username dan password kalian
+
 9.Buatlah nama repository nya sesuai yang kalian mau
+
 10.Ketikan pada CMD seperti dibawah ini
+
 11.Kemudian kita remote repository yang telah kita buat, menggunakan kunci akses HTTPS yang kita dapatkan pada pembuatan repository. ketikkan pada CMD seperti ini.
+
 12.Ketikan seperti dibawah ini
 ini adalah lembar untuk mengisi teks apa saja yang ingin kita masukan.
 
+
 13.Langkah terakhir yaitu kita mengirim projek kita ke repository di Github. ketikkan pada CMD.
+
 14.Proses yang terjadi pada saat kita melakukan push akan memakan waktu yang cukup lama, pada proses ini kita akan diminta untuk memasukkan username dan pasword. tunggu hingga proses selesei. Selamat kita telah mengunggah file projek ke GitHub 
