@@ -37,7 +37,7 @@ Langkah-Langkah Menggunakan Git
 3.Untuk penggunaan pertama kali, kita harus mengkonfigurasikan user name dan email pada Git. ketik pada CMD
 ![image](https://user-images.githubusercontent.com/45659243/51669817-d4dac100-1ff7-11e9-972c-3d18d8e80a23.png)
 4.Buatlah repository local kalian
-
+![image](https://user-images.githubusercontent.com/45659243/51670244-cccf5100-1ff8-11e9-92dc-8c582a11be32.png)
 5.Lakukan inisialisasi, ketik pada CMD
 
 6.Tambahkan semua file yang ada dalam folder projek kita. ketikkan pada CMD
