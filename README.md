@@ -28,8 +28,9 @@ git clone [url], perintah untuk membuat working directory yang diambil dari repo
 git remote add origin [url], perintah untuk menambahkan remote server/reopsitory server pada local repositry (working directory).
 
 Langkah-Langkah Menggunakan Git
-1.Buat Folder dimana saja
 
+1.Buat Folder latihan 1
+![screenshot 127](https://user-images.githubusercontent.com/45659243/51669511-38b0ba00-1ff7-11e9-80b1-ddf39b5a04b6.png)
 
 2.Selanjutnya, buka windows explorer, klik kanan pada folder yang telah dibuat tadi, klik “Git Bash Here”, maka akan muncul command prompt.
 
