@@ -1,9 +1,9 @@
 #latihan 1
 ##Cara penggunaan git
 
-Langkkah-langkah pengguna git repository
+Langkah-langkah pengguna git repository
 
-1.Pilih menu git bash
+1.Membuat new repository pada git hub
 ![membuat repository latihan1](https://user-images.githubusercontent.com/45659243/51667254-457edf00-1ff2-11e9-84da-f668e0593ae5.png)
 
 2.Membuat directory project dengan nama "latihan1", sehingga terbentuk satu direktori
