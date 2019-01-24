@@ -1,7 +1,8 @@
 #latihan 1
 
 TUTORIAL CARA MENGGUNAKAN GIT
-Apa Itu Git ?
+
+![image](https://user-images.githubusercontent.com/45659243/51669387-f6877880-1ff6-11e9-8168-e491992353b3.png)
 
 Git adalah pengontrol versi yang bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri. Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja.
 
