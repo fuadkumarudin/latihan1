@@ -2,6 +2,7 @@
 ##Cara penggunaan git
 
 Langkkah-langkah pengguna git repository
+
 1.Pilih menu git bash
 ![membuat repository latihan1](https://user-images.githubusercontent.com/45659243/51667254-457edf00-1ff2-11e9-84da-f668e0593ae5.png)
 
