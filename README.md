@@ -40,6 +40,8 @@ Langkah-Langkah Menggunakan Git
 ![image](https://user-images.githubusercontent.com/45659243/51670244-cccf5100-1ff8-11e9-92dc-8c582a11be32.png)
 5.Lakukan inisialisasi, ketik pada CMD
 
+![image](https://user-images.githubusercontent.com/45659243/51670374-1029bf80-1ff9-11e9-92d7-3507dbc2b506.png)
+
 6.Tambahkan semua file yang ada dalam folder projek kita. ketikkan pada CMD
 
 7.Buat commit projeknya, commit disini digunakan untuk mengatur versi projek yang kita unggah. misalnya README.md. ketikkan pada CMD, kemudian kita ketik git status
