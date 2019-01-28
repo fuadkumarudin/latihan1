@@ -19,13 +19,16 @@ Lakukan "git config --global user.name dan emal " supaya bisa login github ketik
 ![1](https://user-images.githubusercontent.com/45659243/51810143-b830d880-22d8-11e9-8f5c-cdb5258443ad.png)
 
 Perintah Dasar Git
+
 git init, perintah untuk membuat repository local
 git add, perintah untuk menambahkan file baru, atau perubahan pada file pada staging sebelum proses commit.
 git commit, perintah untuk menyimpan perubahan kedalam database git.
 git push -u origin master, perintah untuk mengirim perubahan pada repository local menuju server repository.
 git clone [url], perintah untuk membuat working directory yang diambil dari repositry sever.
 git remote add origin [url], perintah untuk menambahkan remote server/reopsitory server pada local repositry (working directory)
+
 Membuat Reposiory Local
+
 Buka direktory aktif, misal: c:/Latihan
 Buat direktory project praktikum pertama dengan nama Latihan
 Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
@@ -36,11 +39,19 @@ Buatlah direktory "Latihan" kemudian masuk ke direktory tersebut
 
 Lakukan "git init" untuk menjadikan repository lokal
 
+![3](https://user-images.githubusercontent.com/45659243/51810150-bebf5000-22d8-11e9-86ad-1dd73fc674b7.png)
+
 Buat File Bernama "README.md" (text file), jika file berhasil dibuat, akan tampil seperti dlm gambar
+
+![4](https://user-images.githubusercontent.com/45659243/51810153-c121aa00-22d8-11e9-933c-ca6d74a339bd.png)
 
 kemudian tambahkan file tersebut ke repository dengan " git add README.md, file yang berhasil ditambahkan akan terlihat seperti di gambar, dengan "git status"
 
+![5](https://user-images.githubusercontent.com/45659243/51810158-c67ef480-22d8-11e9-9074-32b2aa38c2bf.png)
+
 Untuk Menyimpan perubahan sebuah file ke repository local gunakan printah " git commit -m "perubahan yang terjadi"
+
+![6](https://user-images.githubusercontent.com/45659243/51810163-caab1200-22d8-11e9-96ae-fa7b3ed5e8ed.png)
 
 Membuat repository server
 Server reopsitory yang akan kita gunakan adalah http://github.com
@@ -57,6 +68,10 @@ Untuk mengirim perubahan pada local repository ke server gunakan perintah git pu
 Perintah ini akan meminta memasukkan username dan password pada akun github.com
 Gunakan printah " git push -u origin master"
 
+![7](https://user-images.githubusercontent.com/45659243/51810164-cf6fc600-22d8-11e9-8752-ac3f54347882.png)
+
 Melihat hasilnya pada server repository
 Buka laman github.com, arahkan pada repositori- nya.
 Maka perubahan akan terlihat pada laman tersebut. #
+
+![8](https://user-images.githubusercontent.com/45659243/51810167-d3034d00-22d8-11e9-83b2-0080ed6af093.png)
