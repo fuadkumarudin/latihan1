@@ -15,6 +15,7 @@ Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi user name da
 konfigurasi ini bisa dilakukan untuk global repostiry atau individual repository.
 apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah git commit
 Lakukan "git config --global user.name dan emal " supaya bisa login github ketika push #
+
 ![1](https://user-images.githubusercontent.com/45659243/51810143-b830d880-22d8-11e9-8f5c-cdb5258443ad.png)
 
 Perintah Dasar Git
@@ -30,6 +31,8 @@ Buat direktory project praktikum pertama dengan nama Latihan
 Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
 direktory aktif menjadi: c:/Latihan
 Buatlah direktory "Latihan" kemudian masuk ke direktory tersebut
+
+![2](https://user-images.githubusercontent.com/45659243/51810148-bbc45f80-22d8-11e9-96fd-70f0c86cf6f3.png)
 
 Lakukan "git init" untuk menjadikan repository lokal
 
