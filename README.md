@@ -4,60 +4,56 @@ TUTORIAL CARA MENGGUNAKAN GIT
 
 ![image](https://user-images.githubusercontent.com/45659243/51669387-f6877880-1ff6-11e9-8168-e491992353b3.png)
 
-Git adalah pengontrol versi yang bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri. Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja.
+Apa itu Git?
+Git adalah salah satu sistem pengontrol versi (Version Control System) pada proyek perangkat lunak yang diciptakan oleh Linus Torvalds.
+Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri.
+Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja
 
-Langkah-langkah Install GIT di berbagai jenis sistem
+Menambahkan Global Config
 
-Install GIT di Windows
+Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi user name dan user email
+konfigurasi ini bisa dilakukan untuk global repostiry atau individual repository.
+apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah git commit
+Lakukan "git config --global user.name dan emal " supaya bisa login github ketika push #
 
-Menginstall GIT di Windows sangat mudah, cukup dengan mendownload dan menjalankan instalasinya. Ikuti langkah berikut ini untuk meng-install GIT di Windows:
 
-Buka website ini dan download installer GIT untuk Windows.
-Setelah download, buka file tersebut untuk menjalankan proses instalasi. Ikuti semua instruksi, klik Next dan Finish hingga semua proses instalasi selesai.
-PERINTAH DASAR GIT
+Perintah Dasar Git
 git init, perintah untuk membuat repository local
-
 git add, perintah untuk menambahkan file baru, atau perubahan pada file pada staging sebelum proses commit.
-
 git commit, perintah untuk menyimpan perubahan kedalam database git.
-
 git push -u origin master, perintah untuk mengirim perubahan pada repository local menuju server repository.
-
 git clone [url], perintah untuk membuat working directory yang diambil dari repositry sever.
+git remote add origin [url], perintah untuk menambahkan remote server/reopsitory server pada local repositry (working directory)
+Membuat Reposiory Local
+Buka direktory aktif, misal: c:/Latihan
+Buat direktory project praktikum pertama dengan nama Latihan
+Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
+direktory aktif menjadi: c:/Latihan
+Buatlah direktory "Latihan" kemudian masuk ke direktory tersebut
 
-git remote add origin [url], perintah untuk menambahkan remote server/reopsitory server pada local repositry (working directory).
+Lakukan "git init" untuk menjadikan repository lokal
 
-Langkah-Langkah Menggunakan Git
+Buat File Bernama "README.md" (text file), jika file berhasil dibuat, akan tampil seperti dlm gambar
 
-1.Buat Folder latihan 1
-![screenshot 127](https://user-images.githubusercontent.com/45659243/51669511-38b0ba00-1ff7-11e9-80b1-ddf39b5a04b6.png)
+kemudian tambahkan file tersebut ke repository dengan " git add README.md, file yang berhasil ditambahkan akan terlihat seperti di gambar, dengan "git status"
 
-2.Selanjutnya, buka windows explorer, klik kanan pada folder yang telah dibuat tadi, klik “Git Bash Here”, maka akan muncul command prompt.
-![screenshot 128](https://user-images.githubusercontent.com/45659243/51669714-9d6c1480-1ff7-11e9-9b0f-79eae654cfd1.png)
-3.Untuk penggunaan pertama kali, kita harus mengkonfigurasikan user name dan email pada Git. ketik pada CMD
-![image](https://user-images.githubusercontent.com/45659243/51669817-d4dac100-1ff7-11e9-972c-3d18d8e80a23.png)
-4.Buatlah repository local kalian
-![image](https://user-images.githubusercontent.com/45659243/51670244-cccf5100-1ff8-11e9-92dc-8c582a11be32.png)
-5.Lakukan inisialisasi, ketik pada CMD
+Untuk Menyimpan perubahan sebuah file ke repository local gunakan printah " git commit -m "perubahan yang terjadi"
 
-![image](https://user-images.githubusercontent.com/45659243/51670374-1029bf80-1ff9-11e9-92d7-3507dbc2b506.png)
+Membuat repository server
+Server reopsitory yang akan kita gunakan adalah http://github.com
+Anda harus membuat akun terlebih dahulu. • Pada laman github, klik tombol start a project, atau
+Dari menu (icon +) klik New Repository
+Membuat repository server
+Isi nama repositorynya, misal: Latihan1.
+lalu klik tombol Create repository
+Menambahkan Remote Repository
+Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user.
+Untuk menambahkan remote repository server, gunakan perintah git remote add origin [url]
+Push (Mengirim perubahan ke server)
+Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
+Perintah ini akan meminta memasukkan username dan password pada akun github.com
+Gunakan printah " git push -u origin master"
 
-6.Tambahkan semua file yang ada dalam folder projek kita. ketikkan pada CMD
-
-7.Buat commit projeknya, commit disini digunakan untuk mengatur versi projek yang kita unggah. misalnya README.md. ketikkan pada CMD, kemudian kita ketik git status
-
-8.Kita buat repositorynya di github dengan username dan password kalian
-
-9.Buatlah nama repository nya sesuai yang kalian mau
-
-10.Ketikan pada CMD seperti dibawah ini
-
-11.Kemudian kita remote repository yang telah kita buat, menggunakan kunci akses HTTPS yang kita dapatkan pada pembuatan repository. ketikkan pada CMD seperti ini.
-
-12.Ketikan seperti dibawah ini
-ini adalah lembar untuk mengisi teks apa saja yang ingin kita masukan.
-
-
-13.Langkah terakhir yaitu kita mengirim projek kita ke repository di Github. ketikkan pada CMD.
-
-14.Proses yang terjadi pada saat kita melakukan push akan memakan waktu yang cukup lama, pada proses ini kita akan diminta untuk memasukkan username dan pasword. tunggu hingga proses selesei. Selamat kita telah mengunggah file projek ke GitHub 
+Melihat hasilnya pada server repository
+Buka laman github.com, arahkan pada repositori- nya.
+Maka perubahan akan terlihat pada laman tersebut. #
