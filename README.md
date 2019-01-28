@@ -15,7 +15,7 @@ Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi user name da
 konfigurasi ini bisa dilakukan untuk global repostiry atau individual repository.
 apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah git commit
 Lakukan "git config --global user.name dan emal " supaya bisa login github ketika push #
-
+![1](https://user-images.githubusercontent.com/45659243/51810143-b830d880-22d8-11e9-8f5c-cdb5258443ad.png)
 
 Perintah Dasar Git
 git init, perintah untuk membuat repository local
